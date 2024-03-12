@@ -13,7 +13,6 @@ public class RestClientConfig {
         return RestClient.create("https://crudcrud.com/api/8169b7587fba432daafaa5c44cd32fab");
     }
     
-
     @Bean
     ApplicationRunner applicationRunner(CrudService crudService) {
         return args -> {
