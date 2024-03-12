@@ -5,4 +5,4 @@ Contém informações relacionadas as novidades que surgiram no Spring boot, com
 
 ### Spring Webflux
 
-A abordagem com Servlet é bloqueante, cada requisição só é processada quando uma termina. A reatividade permite trabalhar de forma assíncrona o que permite processar requisições parelelamente.
+A abordagem com Servlet é bloqueante, cada requisição só é processada quando uma termina. O Webflux veio pra resolver isso.
