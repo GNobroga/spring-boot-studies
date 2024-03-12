@@ -6,3 +6,12 @@ Contém informações relacionadas as novidades que surgiram no Spring boot, com
 ### Spring Webflux
 
 A abordagem com Servlet é bloqueante, cada requisição só é processada quando uma termina. O Webflux veio pra resolver isso.
+
+
+### JDBCTemplate
+
+Simplifica a utilização do JDBC e ajuda evitar erros comuns, além de extrair os results das consultas. O JDBCClient é uma alternativa  a ele.
+
+### Connection Pool
+
+Utilizar um pool de conexão ajuda evitar gargalos nas consultas e tornar o gerenciamento de conexões mais distribuido. 

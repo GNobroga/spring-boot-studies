@@ -1,0 +1,30 @@
+services:
+  postgres:
+    container_name: postgres_container
+    image: postgres 
+    environment:
+      POSTGRES_USER: db
+      POSTGRES_PASSWORD: db 
+    ports:
+      - 5432:5432
+    networks:
+      - postgres
+
+  pgadmin:
+    container_name: pgadmin_container 
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: test@test.com 
+      PGADMIN_DEFAULT_PASSWORD: test 
+    ports:
+      - 15000:80
+    networks:
+      - postgres
+
+networks:
+  postgres:
+    driver: bridge
+  
+volumes:
+  postgres:
+  pgadmin:
