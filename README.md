@@ -15,3 +15,7 @@ Simplifica a utilização do JDBC e ajuda evitar erros comuns, além de extrair 
 ### Connection Pool
 
 Utilizar um pool de conexão ajuda evitar gargalos nas consultas e tornar o gerenciamento de conexões mais distribuido. 
+
+### JOOQ
+
+O JOOQ é uma biblioteca que tem foco na ideia de first data source, ele converter a estrutura do banco em classes java e tem uma abordagem fluente.
