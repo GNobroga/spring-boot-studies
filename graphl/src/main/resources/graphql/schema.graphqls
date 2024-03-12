@@ -1,0 +1,31 @@
+type Query {
+    posts: [Post]
+    comments: [Comment]
+    findCommentById(id: ID!): Comment
+    findPostById(id: ID!): Post
+}
+
+type Mutation {
+    createPost(input: CreatePostInput): [Post] 
+    createComment(input: CreateCommentInput): [Comment]
+}
+
+type Post {
+    id: ID!
+    content: String!
+}
+
+type Comment {
+    id: ID!
+    content: String!
+    postId: String!
+}
+
+input CreatePostInput {
+    content: String!
+}
+
+input CreateCommentInput {
+    content: String!
+    postId: String!
+}
