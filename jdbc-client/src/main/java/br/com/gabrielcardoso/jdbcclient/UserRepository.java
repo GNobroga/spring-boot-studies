@@ -47,6 +47,7 @@ public class UserRepository {
             .update();
     }
 
+
     public void deleteById(Long id) {
         jdbcClient 
             .sql("DELETE FROM users where id = :id") 
