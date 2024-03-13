@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: oauth2
+
+    security:
+        oauth2:
+            client:
+                registration:
+                    github:
+                        client-id: c9739f3e1f29695eea8f
+                        client-secret: 459d5a5ea25718367d73437dcced8a6929208a8a
+logging:
+  level:
+    org:
+        springframework:
+            security: TRACE
