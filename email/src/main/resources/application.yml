@@ -1,0 +1,16 @@
+
+spring:
+    application:
+        name: email 
+
+    mail:
+        host: sandbox.smtp.mailtrap.io
+        port: 587 
+        username: 0ae29c2e2016c1
+        password: d0a9fe8ca476ad
+        properties:
+            mail:
+                stmp:
+                    auth: true
+                    starttls:
+                        enable: true
