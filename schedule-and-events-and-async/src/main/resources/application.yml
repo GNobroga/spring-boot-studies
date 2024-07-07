@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: demo
+    datasource:
+        url: jdbc:h2:mem:testdb
+        username: db
+        password: db
