@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: spring-webflux-essential
+    profiles:
+        active: dev
+
+    h2:
+        console:
+            enabled: false
